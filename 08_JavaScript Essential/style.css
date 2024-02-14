@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+#main{
+    width: 100%;
+    
+}
+
+.card{
+    /* margin: 100px auto 0px; */
+    border-radius: 25px;
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    padding: 45px 0px;
+    background-image: url(https://images.unsplash.com/photo-1543164904-a81403d527a2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3RvcHdhdGNofGVufDB8fDB8fHww);
+}
+
+.card button{
+    margin: 25px 15px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+
+}
+#play:hover{
+    background-color: green;
+    
+}
+
+.card i{
+    font-size: 28px;
+    text-align: center;
+}
+
+.card i.ri-play-circle-line{
+    font-size: 38px;
+}
+
+#restart:hover{
+    background-color: cornflowerblue;
+}
+
+#stop:hover{
+    background-color: red;
+}

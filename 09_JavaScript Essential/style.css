@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#main{
+    width: 100%;
+    
+}
+#landing{
+    text-align: center;
+    /* margin-top: 50px; */
+    padding: 50px;
+    color: white;
+    
+}
+
+.row{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.row button{
+    margin: 2px;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    border: 2px solid #442727;
+    width: 40px;
+
+}
+
+.row button:hover{
+    background-color:black;
+    color: white;
+    transition: all ease .3s;
+}
+
+.row input{
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 14px;
+    border: none;
+}
+
+form{
+    padding: 1.5vw 0vw;
+}
+
+.cursor {
+    width: 15px;
+    background-color: white;
+    height: 15px;
+    border-radius: 50%;
+    position: fixed; /* Change position to fixed */
+    mix-blend-mode: difference;
+}
+
+#landing2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rect{
+    
+    width: 300px;
+    height: 120px;
+    background-color: white;
+
+}
+
+.landing3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#new{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    
+}
